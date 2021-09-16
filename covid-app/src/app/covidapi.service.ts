@@ -77,8 +77,8 @@ export class CovidApiService {
   // It should have a promise sync function 
 
   public addPost(body: any) {
-
-    return this.httpClient.post(GlobalConstants.helloApiURL + '/covid/post', body).subscribe((data: any) => {
+    let descValue = body.desc;
+    return this.httpClient.post(GlobalConstants.helloApiURL + '/covid/post', descValue).subscribe((data: any) => {
 
     }
       ,

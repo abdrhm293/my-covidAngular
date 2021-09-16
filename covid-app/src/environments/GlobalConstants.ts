@@ -1,6 +1,8 @@
 export class GlobalConstants {
 
-    public static helloApiURL: string = "http://localhost:8081";      
+    public static helloApiURL: string = "http://localhost:8081";     
+    
+    public static miningURL: string = "http://localhost:8091";
 
     public static errorMessage: string = "BackEnd Error Found";
 
